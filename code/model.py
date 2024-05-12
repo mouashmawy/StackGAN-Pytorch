@@ -302,3 +302,6 @@ class STAGE2_D(nn.Module):
         img_embedding = self.encode_img(image)
 
         return img_embedding
+
+def printX():
+    print('working..')
